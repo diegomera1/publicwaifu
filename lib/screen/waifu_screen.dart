@@ -36,7 +36,7 @@ class _WaifuScreenState extends State<WaifuScreen> {
         children: [
           SizedBox(
             width: double.infinity,
-            height: 770,
+            height: MediaQuery.of(context).size.height * 0.80,
             child: Container(
               decoration: BoxDecoration(color: Colors.blue[50]),
               child: Image.network(
